@@ -1,0 +1,14 @@
+/home/johnlambert/Desktop/dsa-csharp/obj/Debug/net8.0/dsa-csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/johnlambert/Desktop/dsa-csharp/obj/Debug/net8.0/dsa-csharp.AssemblyInfoInputs.cache
+/home/johnlambert/Desktop/dsa-csharp/obj/Debug/net8.0/dsa-csharp.AssemblyInfo.cs
+/home/johnlambert/Desktop/dsa-csharp/obj/Debug/net8.0/dsa-csharp.csproj.CoreCompileInputs.cache
+/home/johnlambert/Desktop/dsa-csharp/bin/Debug/net8.0/dsa-csharp
+/home/johnlambert/Desktop/dsa-csharp/bin/Debug/net8.0/dsa-csharp.deps.json
+/home/johnlambert/Desktop/dsa-csharp/bin/Debug/net8.0/dsa-csharp.runtimeconfig.json
+/home/johnlambert/Desktop/dsa-csharp/bin/Debug/net8.0/dsa-csharp.dll
+/home/johnlambert/Desktop/dsa-csharp/bin/Debug/net8.0/dsa-csharp.pdb
+/home/johnlambert/Desktop/dsa-csharp/obj/Debug/net8.0/dsa-csharp.dll
+/home/johnlambert/Desktop/dsa-csharp/obj/Debug/net8.0/refint/dsa-csharp.dll
+/home/johnlambert/Desktop/dsa-csharp/obj/Debug/net8.0/dsa-csharp.pdb
+/home/johnlambert/Desktop/dsa-csharp/obj/Debug/net8.0/dsa-csharp.genruntimeconfig.cache
+/home/johnlambert/Desktop/dsa-csharp/obj/Debug/net8.0/ref/dsa-csharp.dll
