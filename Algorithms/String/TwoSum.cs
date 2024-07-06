@@ -4,21 +4,12 @@ namespace Algorithms.String
       {
 
 
-            //
-            // Summary:
-            //     Returns a value that indicates whether there is an object at the top of the System.Collections.Generic.Stack`1,
-            //     and if one is present, copies it to the result parameter. The object is not removed
-            //     from the System.Collections.Generic.Stack`1.
-            //
-            // Parameters:
-            //   result:
-            //     If present, the object at the top of the System.Collections.Generic.Stack`1;
-            //     otherwise, the default value of T.
-            //
-            // Returns:
-            //     true if there is an object at the top of the System.Collections.Generic.Stack`1;
-            //     false if the System.Collections.Generic.Stack`1 is empty.
-
+            /// <summary>
+            /// Finds two indices in the array such that their values add up to the target.
+            /// </summary>
+            /// <param name="arr">The input array of integers.</param>
+            /// <param name="target">The target sum to find in the array.</param>
+            /// <returns>An array containing the two indices if found; otherwise, an empty array.</returns>
             public int[] TwoSumBruteForce(int[] arr, int target)
             {     
                   for(int i = 0; i < arr.Length; i++) 
