@@ -1,4 +1,5 @@
 ﻿using Algorithms.String;
+using dsa_csharp.Algorithms.Search;
 using dsa_csharp.DataStructure.Stack;
 
 namespace dsa_csharp;
@@ -7,11 +8,12 @@ class Program
 {
     static void Main(string[] args)
     {
-       int[] arr = { 2, 7, 11, 15 };
-       int targets = 9;
+       var test = new[]
+       {
+        2, 3, 5, 7, 11, 13, 17, 19,
+                23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79
+       };
 
-       var twoSum = new TwoSum();
-
-        twoSum.TwoSumBruteForce([1, 5, 8, -1, 6, -9, 3], 7);
+       Console.WriteLine(BinarySearch.Search(test, 101));
     }
 }
