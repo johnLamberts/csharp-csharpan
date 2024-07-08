@@ -44,10 +44,30 @@ public class ArrayBasedQueueTest
                   peeked = q.Peek();
             }
 
-            Console.WriteLine(peeked);
-            Assert.Equal("10", peeked.ToString());
 
             // Assert
+            Assert.Equal("10", peeked.ToString());
+      }
+
+      [Fact]
+      public static void DequeueEmptyQueueThrowsWhenIndalidOperationException()
+      {
+            // Given
+            var q = new ArrayBasedQueue<int>(1);
+            Exception? exception = null;      
+            
+            // When
+            try {
+                  q.Dequeue();
+            } catch (Exception ex) 
+            {
+                  exception = ex;
+            }
+
+
+            // Then
+            Assert.IsType<InvalidOperationException>(exception);
+
       }
 
 }
