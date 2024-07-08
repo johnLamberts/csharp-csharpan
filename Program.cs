@@ -1,5 +1,6 @@
 ﻿using Algorithms.String;
 using dsa_csharp.Algorithms.Search;
+using dsa_csharp.DataStructure.Queue;
 using dsa_csharp.DataStructure.Stack;
 
 namespace dsa_csharp;
@@ -27,25 +28,25 @@ class Program
     // Boyer-Moore Algorithm
     //
     // Definition:
+    //
     // This algorithm is one of the popular optimal algorithms
     // which is used to find the majority element among the given elements
     // that have more than N/2 occurences.
+    //
+    // Basic Usage:
+    //
+    // var elementCount = 1000;
+    // var rnd = new Random();
+    // var randomNums = new List<int>();
+    // while (randomNums.Count < elementCount / 2) randomNums.Add(rnd.Next(0, elementCount));
+    // var majorityElement = rnd.Next(0, elementCount);
+    // randomNums.AddRange(Enumerable.Repeat(majorityElement, elementCount / 2 + 1));
+    // randomNums = randomNums.OrderBy(x => rnd.Next()).ToList();
+    // var expected = majorityElement;
+    // var actual = BoyerMoore<int>.FindMajority(randomNums);
+    // Console.WriteLine($"Assertion Equals: Actual: {actual} ---- Expected: {expected}");
 
-    var elementCount = 1000;
 
-    var rnd = new Random();
 
-    var randomNums = new List<int>();
-
-    while (randomNums.Count < elementCount / 2) randomNums.Add(rnd.Next(0, elementCount));
-
-    var majorityElement = rnd.Next(0, elementCount);
-
-    randomNums.AddRange(Enumerable.Repeat(majorityElement, elementCount / 2 + 1));
-    randomNums = randomNums.OrderBy(x => rnd.Next()).ToList();
-    var expected = majorityElement;
-    var actual = BoyerMoore<int>.FindMajority(randomNums);
-
-    Console.WriteLine($"Assertion Equals: Actual: {actual} ---- Expected: {expected}");
     }
 }
