@@ -1,6 +1,7 @@
 ﻿using Algorithms.String;
 using dsa_csharp.Algorithms.Search;
 using dsa_csharp.DataStructure.Queue;
+using dsa_csharp.DataStructure.SinglyLinkedList;
 using dsa_csharp.DataStructure.Stack;
 
 namespace dsa_csharp;
@@ -47,6 +48,17 @@ class Program
     // Console.WriteLine($"Assertion Equals: Actual: {actual} ---- Expected: {expected}");
 
 
+    var linkedList = new SinglyLinkedList<char>();
 
+    linkedList.AddFirst('H');
+    linkedList.AddFirst('E');
+    linkedList.AddFirst('L');
+    linkedList.AddFirst('L');
+    linkedList.AddFirst('O');
+
+        foreach (var list in linkedList.GetListData()) 
+        {
+            Console.WriteLine(list);
+        }
     }
 }
