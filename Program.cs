@@ -63,8 +63,8 @@ class Program
     //         Console.WriteLine(list);
     //     }
 
-    var isPalindrome = Palindrome.IsStringPalindrome("A santa at nasa");
+    var isPalindrome = Permutation.GetEveryUniquePermutation("abcd");
 
-    Console.WriteLine(isPalindrome); 
+    foreach (var letrs in isPalindrome) Console.WriteLine(letrs);
     }
 }
