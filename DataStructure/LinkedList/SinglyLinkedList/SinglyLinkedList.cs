@@ -1,4 +1,4 @@
-namespace dsa_csharp.DataStructure.SinglyLinkedList;
+namespace dsa_csharp.DataStructure.LinkedList;
 
 public class SinglyLinkedList<T> 
 {
